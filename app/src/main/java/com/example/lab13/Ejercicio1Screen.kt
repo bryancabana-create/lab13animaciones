@@ -73,11 +73,6 @@ fun Ejercicio1Screen(modifier: Modifier = Modifier) {
                 containerColor = MaterialTheme.colorScheme.surfaceVariant
             )
         ) {
-            Text(
-                text = "Presiona el botón para alternar la visibilidad del elemento con animación de fadeIn/fadeOut y expandVertically/shrinkVertically.",
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.padding(16.dp)
-            )
         }
 
         Spacer(modifier = Modifier.height(24.dp))
