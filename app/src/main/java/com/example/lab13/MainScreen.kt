@@ -29,6 +29,7 @@ fun MainScreen() {
         "Ex 2",
         "Ex 3",
         "Ex 4",
+        "Final",
     )
 
     Scaffold(
@@ -64,6 +65,7 @@ fun MainScreen() {
                 1 -> Ejercicio2Screen()
                 2 -> Ejercicio3Screen()
                 3 -> Ejercicio4Screen()
+                4 -> EjercicioFinalScreen()
                 else -> Ejercicio1Screen()
             }
         }
